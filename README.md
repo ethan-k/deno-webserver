@@ -6,6 +6,16 @@
 
 ```
 $ deno run --allow-net --allow-read main.ts
-$ curl localhost:8000                                7 ↵  2652  08:42:37
+$ curl localhost:8000                               
 Hello from your first Deno server%
+```
+
+
+## Simple Server with [Oak](https://github.com/oakserver/oak)
+
+```
+cd ./oak
+$ deno run --allow-net --allow-read main.ts
+$ curl localhost:8000                               
+Hello World!
 ```
